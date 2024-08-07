@@ -37,6 +37,7 @@ code
 cronie
 cups
 dialog
+discord
 dmidecode
 dnsmasq
 dtc
@@ -56,12 +57,20 @@ grub-customizer
 gst-libav
 gst-plugins-good
 gst-plugins-ugly
+gtk3
 haveged
 htop
 jdk-openjdk
 kitty
 libdvdcss
 libtool
+lib32-gcc-libs 
+lib32-gtk2 
+lib32-gtk3
+libnotify
+libappindicator-gtk3
+libpulse
+libxss
 lsof
 lutris
 lzop
@@ -70,6 +79,8 @@ make
 neofetch
 ntfs-3g
 ntp
+nspr
+nss
 openbsd-netcat
 openssh
 os-prober
@@ -105,6 +116,7 @@ virt-viewer
 which
 wine-gecko
 wine-mono
+xdg-utils
 winetricks
 zip
 zsh
