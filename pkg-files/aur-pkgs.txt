@@ -23,4 +23,3 @@ sddm-nordic-theme-git
 snapper-gui-git
 ttf-meslo
 vde2
-zoom
