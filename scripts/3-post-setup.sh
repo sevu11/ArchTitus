@@ -120,8 +120,7 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 PLYMOUTH_THEMES_DIR="$HOME/ArchTitus/configs/usr/share/plymouth/themes"
-#PLYMOUTH_THEME="arch-glow"
-PLYMOUTH_THEME="sweet-arch"
+PLYMOUTH_THEME="arch-glow"
 mkdir -p /usr/share/plymouth/themes
 echo 'Installing Plymouth theme...'
 cp -rf ${PLYMOUTH_THEMES_DIR}/${PLYMOUTH_THEME} /usr/share/plymouth/themes
