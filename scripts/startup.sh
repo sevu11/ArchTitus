@@ -45,10 +45,10 @@ root_check() {
 
 docker_check() {
     if awk -F/ '$2 == "docker"' /proc/self/cgroup | read -r; then
-        echo -ne "ERROR! Docker container is not supported (at the moment)\n"
+        echo -ne "ERROR! Docker container is not supported\n"
         exit 0
     elif [[ -f /.dockerenv ]]; then
-        echo -ne "ERROR! Docker container is not supported (at the moment)\n"
+        echo -ne "ERROR! Docker container is not supported\n"
         exit 0
     fi
 }

@@ -51,7 +51,7 @@ echo -ne "
                     Setup Language to US and set locale  
 -------------------------------------------------------------------------
 "
-sed -i 's/^#en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen
+# sed -i 's/^#en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen
 sed -i 's/^#sv_SE.UTF-8 UTF-8/sv_SE.UTF-8 UTF-8/' /etc/locale.gen
 locale-gen
 timedatectl --no-ask-password set-timezone ${TIMEZONE}
@@ -108,7 +108,6 @@ else
   pacman -S --noconfirm --needed linux linux-headers
 fi
 
-# Update bootloader configuration if needed
 echo -ne "
 -------------------------------------------------------------------------
                     Updating Bootloader  
