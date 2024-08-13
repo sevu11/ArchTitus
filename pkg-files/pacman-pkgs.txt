@@ -70,6 +70,7 @@ lib32-gtk3
 libnotify
 libappindicator-gtk3
 libpulse
+libvirt
 libxss
 lsof
 lutris
